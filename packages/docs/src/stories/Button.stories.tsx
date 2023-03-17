@@ -5,16 +5,14 @@ export default {
   title: 'Button',
   component: Button,
   args: {
-    children: 'Enviar'
-} 
+    children: 'Enviar',
+  },
 } as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonProps> = {
- 
-}
+export const Primary: StoryObj<ButtonProps> = {}
 
 export const Secondary: StoryObj<ButtonProps> = {
-   args: {
-    size: 'big'
-   }
+  args: {
+    size: 'big',
+  },
 }
