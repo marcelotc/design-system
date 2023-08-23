@@ -500,5 +500,13 @@ export {
   MultiStep,
   Text,
   TextArea,
-  TextInput
+  TextInput,
+  config,
+  createTheme,
+  css,
+  getCssText,
+  globalCss,
+  keyframes,
+  styled,
+  theme
 };
